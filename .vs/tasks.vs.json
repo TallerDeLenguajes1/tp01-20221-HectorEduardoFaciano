@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-WebApplication2",
+      "appliesTo": "WebApplication2/WebApplication2.sln",
+      "type": "launch"
+    }
+  ]
+}

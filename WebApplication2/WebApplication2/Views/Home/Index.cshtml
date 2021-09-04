@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <form asp-action="Punto1" asp-controller="Home" method="post">
+        <h2>Cuadrado</h2>
+        <input type="number" name="numero" value="" />
+        <input type="submit" class="btn btn-primary" />
+    </form>
+    <form asp-action="Punto2" asp-controller="Home" method="post">
+        <h2>Division</h2>
+        <input type="number" name="dividendo" value="" />
+        <input type="number" name="divisor" value="" />
+        <input type="submit" class="btn btn-primary" />
+    </form>
+    <form asp-action="Punto3" asp-controller="Home" method="post">
+        <h2>Mostrar Listado de Provincias</h2>
+        <input id="Submit1" type="submit" value="Mostrar" />
+    </form>
+    <form asp-action="Punto4" asp-controller="Home" method="post">
+        <h2>Consumo del automovil</h2>
+        <label for="kilometros">Kilómetros conducidos</label>
+        <input id="kilometros" type="number" name="kilometros" />
+        <label for="litros">Litros usados</label>
+        <input id="litros" type="number" name="litros" />
+        <input id="Submit" type="submit" value="Calcular" />
+    </form>
+</div>
+
